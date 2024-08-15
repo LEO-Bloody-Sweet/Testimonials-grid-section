@@ -1,0 +1,296 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(210, 46%, 95%);
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+main {
+  width: 80%;
+  height: 70%;
+  display: flex;
+  /* background-color: red; */
+  border-radius: 10px;
+}
+
+.left {
+  width: 75%;
+  /* background-color: pink; */
+  border-radius: 10px;
+}
+
+.top {
+  display: flex;
+  border-radius: 10px;
+}
+
+.top-left {
+  background-color: hsl(263, 55%, 52%);
+  padding: 25px;
+  border-radius: 10px;
+  margin-right: 20px;
+  height: 260px;
+}
+
+.person1 {
+  display: flex;
+}
+
+.person1 img {
+  height: 5%;
+  width: 5%;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.name1 h4 {
+  color: hsl(210, 21%, 87%);
+}
+
+.name1 p {
+  color: hsl(210, 13%, 82%);
+  font-size: 14px;
+  /* margin-bottom: 10px; */
+}
+
+.top-left h2 {
+  margin-top: 10px;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.top-left p {
+  margin-right: 10px;
+  color: hsl(0, 11%, 76%);
+  font-size: 13px;
+  line-height: 20px;
+  margin-bottom: 200px;
+}
+
+.top-right {
+  background-color: hsl(217, 19%, 35%);
+  padding: 25px;
+  border-radius: 10px;
+  height: 260px;
+}
+
+.person2 {
+  display: flex;
+  align-items: center;
+}
+
+.person2 img {
+  height: 12%;
+  width: 12%;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.name2 h4 {
+  color: hsl(210, 21%, 87%);
+  font-size: 12px;
+}
+
+.name2 p {
+  color: hsl(210, 13%, 82%);
+  font-size: 10px;
+}
+
+.top-right h2 {
+  margin-top: 10px;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.top-right p {
+  margin-right: 10px;
+  color: hsl(0, 11%, 76%);
+  font-size: 13px;
+  line-height: 20px;
+}
+
+/* Bottom Section */
+
+.bottom {
+  display: flex;
+}
+
+.bottom-left {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 25px;
+  margin-top: 20px;
+  box-shadow: rgb(185, 177, 193) 0px 0px 10px;
+}
+
+.person3 {
+  display: flex;
+  align-items: center;
+}
+
+.person3 img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.person3 h4 {
+  font-size: 12px;
+  color: hsl(217, 19%, 35%);
+  margin-bottom: 4px;
+  margin-top: 5px;
+}
+
+.person3 p {
+  font-size: 10px;
+  color: hsl(210, 13%, 82%);
+}
+
+.bottom h2 {
+  font-size: 14px;
+  color: hsl(217, 19%, 35%);
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.bottom p {
+  font-size: 12.5px;
+  color: hsl(0, 11%, 76%);
+  line-height: 16px;
+}
+
+.bottom-left h2 {
+  font-size: 20px;
+}
+
+.bottom-left p {
+  font-size: 14px;
+  color: hsl(216, 2%, 48%);
+  font-weight: 200;
+}
+
+.bottom-right {
+  background-color: hsl(219, 29%, 14%);
+  border-radius: 10px;
+  padding: 25px;
+  margin-top: 20px;
+  box-shadow: rgb(185, 177, 193) 0px 0px 10px;
+  margin-left: 20px;
+}
+
+.person4 {
+  display: flex;
+  align-items: center;
+}
+
+.person4 img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.person4 h4 {
+  font-size: 12px;
+  color: white;
+  margin-bottom: 4px;
+  margin-top: 5px;
+}
+
+.person4 p {
+  font-size: 10px;
+  color: hsl(210, 13%, 82%);
+}
+
+.name4 p {
+  font-size: 10px;
+}
+
+.bottom-right h2 {
+  font-size: 14px;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.bottom-right p {
+  font-size: 12.5px;
+  color: hsl(0, 11%, 76%);
+  line-height: 16px;
+}
+
+.bottom-right h2 {
+  font-size: 20px;
+}
+
+.bottom-right p {
+  font-size: 14px;
+  color: hsl(216, 2%, 48%);
+  font-weight: 200;
+}
+
+/* Right Section */
+
+.right {
+  width: 22%;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-left: 20px;
+  padding: 30px;
+  box-shadow: rgb(185, 177, 193) 0px 0px 10px;
+  height: 546px;
+}
+
+.person5 {
+  display: flex;
+  align-items: center;
+}
+
+.person5 img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.person5 h4 {
+  font-size: 12px;
+  color: hsl(217, 19%, 35%);
+  margin-bottom: 4px;
+}
+
+.person5 p {
+  font-size: 8px;
+  color: hsl(210, 13%, 82%);
+}
+
+.name5 p {
+  color: hsl(210, 13%, 82%);
+  font-size: 10px;
+}
+
+.right h2 {
+  font-size: 14px;
+  color: hsl(217, 19%, 35%);
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.right p {
+  font-size: 12.5px;
+  color: hsl(0, 11%, 76%);
+  line-height: 16px;
+}
